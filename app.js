@@ -17,7 +17,7 @@ app.use(
 )
 
 app.get('/', (request, response) => {
-  response.json({ info: 'ZCVSSsadadsa' })
+  response.json({ info: 'newtest' })
 })
 
 app.get('/users', db.getUsers)
@@ -27,5 +27,5 @@ app.put('/users/:id', db.updateUser)
 app.delete('/users/:id', db.deleteUser)
 
 app.listen(port, () => {
-  console.log(`simple-express-crud running on port ${port}.`)
+  console.log(`simple-express-crud running on pot ${port}.`)
 })
